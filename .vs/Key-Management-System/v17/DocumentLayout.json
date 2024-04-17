@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\dto\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:dto\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\dto\\publicusermodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:dto\\publicusermodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\dto\\logincredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:dto\\logincredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Migrations\\20240417091727_Initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240417091727_Initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\configuration\\automapperconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:configuration\\automapperconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\configuration\\jwtbearertokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:configuration\\jwtbearertokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\configuration\\applicationrolenames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:configuration\\applicationrolenames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\services\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:services\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|c:\\users\\arowo\\source\\repos\\key-management-system\\key-management-system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1842E90B-5CEC-4D07-B19B-ECA4878998F4}|Key-Management-System.csproj|solutionrelative:key-management-system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\DTO\\UserCreateDto.cs",
+              "RelativeDocumentMoniker": "DTO\\UserCreateDto.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\DTO\\UserCreateDto.cs",
+              "RelativeToolTip": "DTO\\UserCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T10:01:29.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PublicUserModelDto.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\DTO\\PublicUserModelDto.cs",
+              "RelativeDocumentMoniker": "DTO\\PublicUserModelDto.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\DTO\\PublicUserModelDto.cs",
+              "RelativeToolTip": "DTO\\PublicUserModelDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T10:01:26.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2087539004:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginCredentials.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\DTO\\LoginCredentials.cs",
+              "RelativeDocumentMoniker": "DTO\\LoginCredentials.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\DTO\\LoginCredentials.cs",
+              "RelativeToolTip": "DTO\\LoginCredentials.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T10:01:28.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T10:00:59.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240417091727_Initials.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Migrations\\20240417091727_Initials.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240417091727_Initials.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Migrations\\20240417091727_Initials.cs",
+              "RelativeToolTip": "Migrations\\20240417091727_Initials.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:17:27.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationRoleNames.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Configuration\\ApplicationRoleNames.cs",
+              "RelativeDocumentMoniker": "Configuration\\ApplicationRoleNames.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Configuration\\ApplicationRoleNames.cs",
+              "RelativeToolTip": "Configuration\\ApplicationRoleNames.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:16:09.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Services\\IUsersService.cs",
+              "RelativeDocumentMoniker": "Services\\IUsersService.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Services\\IUsersService.cs",
+              "RelativeToolTip": "Services\\IUsersService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:15:24.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:15:20.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:14:40.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AutoMapperConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Configuration\\AutoMapperConfiguration.cs",
+              "RelativeDocumentMoniker": "Configuration\\AutoMapperConfiguration.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Configuration\\AutoMapperConfiguration.cs",
+              "RelativeToolTip": "Configuration\\AutoMapperConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:14:35.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-17T09:12:46.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Key-Management-System",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Key-Management-System.csproj",
+              "RelativeDocumentMoniker": "Key-Management-System.csproj",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Key-Management-System.csproj",
+              "RelativeToolTip": "Key-Management-System.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-17T09:08:05.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:04:49.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JwtBearerTokenSettings.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Configuration\\JwtBearerTokenSettings.cs",
+              "RelativeDocumentMoniker": "Configuration\\JwtBearerTokenSettings.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Configuration\\JwtBearerTokenSettings.cs",
+              "RelativeToolTip": "Configuration\\JwtBearerTokenSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:16:11.336Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 51,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{deca4779-7b0f-5f0d-98b2-a94d2c122c67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
