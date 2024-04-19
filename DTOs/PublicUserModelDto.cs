@@ -1,4 +1,4 @@
-﻿namespace WebApplication2.DTO
+﻿namespace Key_Management_System.DTO
 {
     public class PublicUserModelDto
     {

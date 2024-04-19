@@ -1,4 +1,4 @@
-﻿namespace WebApplication2.Models
+﻿namespace Key_Management_System.Models
 {
     public class LogoutToken: IBaseEntity
     {

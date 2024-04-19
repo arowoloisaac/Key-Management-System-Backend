@@ -1,7 +1,7 @@
-﻿using WebApplication2.Data;
-using WebApplication2.Models;
+﻿using Key_Management_System.Data;
+using Key_Management_System.Models;
 
-namespace WebApplication2.Services
+namespace Key_Management_System.Services
 {
     public interface ITokenStorageService
     {

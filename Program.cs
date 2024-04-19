@@ -5,11 +5,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System.Text;
-using WebApplication2.Configuration;
-using WebApplication2.Data;
-using WebApplication2.Models;
-using WebApplication2.Services.Initialization;
-using WebApplication2.Services;
+using Key_Management_System.Configuration;
+using Key_Management_System.Data;
+using Key_Management_System.Models;
+using Key_Management_System.Services.Initialization;
+using Key_Management_System.Services;
+using Key_Management_System.Services.UserService;
+using Key_Management_System.Services.UserService.WorkerService;
 
 namespace Key_Management_System
 {
@@ -24,10 +26,14 @@ namespace Key_Management_System
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(options =>
+            {
+                options.EnableAnnotations();
+            });
             builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            builder.Services.AddScoped<IUsersService, UsersService>();
+            //builder.Services.AddScoped<IUsersService, UserService>();
+            builder.Services.AddScoped<IWorkerService, WorkerService>();
             builder.Services.AddScoped<ITokenStorageService, TokenDbStorageService>();
 
             // Add automapper
@@ -49,11 +55,11 @@ namespace Key_Management_System
                 options.AddPolicy(ApplicationRoleNames.User,
                     new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build());
 
-                options.AddPolicy(ApplicationRoleNames.Administrator, new AuthorizationPolicyBuilder()
+                /*options.AddPolicy(ApplicationRoleNames.Administrator, new AuthorizationPolicyBuilder()
                     .RequireAuthenticatedUser()
                     .RequireRole(ApplicationRoleNames.Administrator)
                     .RequireClaim(ClaimTypes.Role, ApplicationRoleNames.Administrator)
-                    .Build());
+                    .Build());*/
             });
 
 
@@ -95,7 +101,7 @@ namespace Key_Management_System
 
             app.UseAuthentication();
             app.UseAuthorization();
-            await app.ConfigureIdentityAsync();
+            //await app.ConfigureIdentityAsync();
 
             app.MapControllers();
 

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace WebApplication2.Models
+namespace Key_Management_System.Models
 {
     public class Role : IdentityRole<Guid>
     {

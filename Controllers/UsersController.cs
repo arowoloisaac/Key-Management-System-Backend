@@ -1,24 +1,24 @@
 ﻿using System.Security.Claims;
+using Key_Management_System.Services.UserService;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication2.Configuration;
-using WebApplication2.DTO;
-using WebApplication2.Services;
+using Key_Management_System.Configuration;
+using Key_Management_System.DTO;
 
-namespace WebApplication2.Controllers
+namespace Key_Management_System.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
     {
-        private IUsersService _usersService;
+        private IUsersService _userService;
 
-        public UsersController(IUsersService usersService)
+        public UsersController(IUsersService userService)
         {
-            _usersService = usersService;
+            _userService = userService;
         }
 
         [HttpPost]
@@ -32,7 +32,7 @@ namespace WebApplication2.Controllers
 
             try
             {
-                await _usersService.Register(model);
+                await _userService.Register(model);
                 return Ok();
             }
             catch (Exception ex)
@@ -50,7 +50,7 @@ namespace WebApplication2.Controllers
             try
             {
                 var emailClaim = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Email);
-                return await _usersService.GetProfile(emailClaim.Value);
+                return await _userService.GetProfile(emailClaim.Value);
             }
             catch (KeyNotFoundException ex)
             {

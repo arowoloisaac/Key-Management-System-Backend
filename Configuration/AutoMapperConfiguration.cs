@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace WebApplication2.Configuration
+namespace Key_Management_System.Configuration
 {
     public class AutoMapperConfiguration : Profile
     {

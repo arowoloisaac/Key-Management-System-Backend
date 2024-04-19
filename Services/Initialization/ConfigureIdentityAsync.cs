@@ -1,8 +1,9 @@
-﻿using Microsoft.AspNetCore.Identity;
-using WebApplication2.Configuration;
-using WebApplication2.Models;
+﻿using Key_Management_System.Models;
+using Microsoft.AspNetCore.Identity;
+using Key_Management_System.Configuration;
+using Key_Management_System.Models;
 
-namespace WebApplication2.Services.Initialization
+namespace Key_Management_System.Services.Initialization
 {
     public static class ConfigureIdentity
     {
@@ -31,10 +32,10 @@ namespace WebApplication2.Services.Initialization
 
             // Creation of user
 
-            var adminUser = await userManager.FindByEmailAsync(config["Email"]);
+            /*var adminUser = await userManager.FindByEmailAsync(config["Email"]);
             if (adminUser == null)
             {
-                var userResult = await userManager.CreateAsync(new User
+                var userResult = await userManager.CreateAsync(new Worker
                 {
                     UserName = config["Email"],
                     Email = config["Email"],
@@ -52,7 +53,7 @@ namespace WebApplication2.Services.Initialization
             if (!await userManager.IsInRoleAsync(adminUser, adminRole.Name))
             {
                 await userManager.AddToRoleAsync(adminUser, adminRole.Name);
-            }
+            }*/
         }
     }
 }

@@ -1,28 +1,22 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Key_Management_System.DTOs.UserDto.SharedDto;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using WebApplication2.Configuration;
-using WebApplication2.DTO;
-using WebApplication2.Models;
+using Key_Management_System.Configuration;
+using Key_Management_System.DTO;
+using Key_Management_System.Models;
 
-namespace WebApplication2.Services
+namespace Key_Management_System.Services.UserService
 {
-    public interface IUsersService
-    {
-        Task Register(UserCreateDto model);
-        Task<PublicUserModelDto> GetProfile(string email);
-        Task<string> Login(LoginCredentials model);
-    }
-
-    public class UsersService : IUsersService
+    public class UserService : IUsersService
     {
         private readonly UserManager<User> _userManager;
         private readonly JwtBearerTokenSettings _bearerTokenSettings;
 
-        public UsersService(UserManager<User> userManager, IOptions<JwtBearerTokenSettings> jwtTokenOptions)
+        public UserService(UserManager<User> userManager, IOptions<JwtBearerTokenSettings> jwtTokenOptions)
         {
             _userManager = userManager;
             _bearerTokenSettings = jwtTokenOptions.Value;
@@ -44,7 +38,7 @@ namespace WebApplication2.Services
             };
         }
 
-        public async Task<string> Login(LoginCredentials model)
+        public async Task<string> Login(LoginDto model)
         {
             var user = await ValidateUser(model);
             if (user == null)
@@ -78,7 +72,7 @@ namespace WebApplication2.Services
             }
         }
 
-        private async Task<User> ValidateUser(LoginCredentials credentials)
+        private async Task<User> ValidateUser(LoginDto credentials)
         {
             var identityUser = await _userManager.FindByEmailAsync(credentials.Email);
             if (identityUser != null)

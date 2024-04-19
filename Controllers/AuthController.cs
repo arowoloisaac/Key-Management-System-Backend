@@ -1,17 +1,11 @@
-﻿using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
+﻿using System.Security.Claims;
+using Key_Management_System.DTOs.UserDto.SharedDto;
+using Key_Management_System.Services.UserService;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
-using WebApplication2.Configuration;
-using WebApplication2.DTO;
-using WebApplication2.Services;
+using Key_Management_System.Services;
 
-namespace WebApplication2.Controllers
+namespace Key_Management_System.Controllers
 {
     [Route("api/account")]
     [ApiController]
@@ -28,7 +22,7 @@ namespace WebApplication2.Controllers
 
         [HttpPost]
         [Route("login")]
-        public async Task<IActionResult> Login([FromBody] LoginCredentials model)
+        public async Task<IActionResult> Login([FromBody] LoginDto model)
         {
             try
             {

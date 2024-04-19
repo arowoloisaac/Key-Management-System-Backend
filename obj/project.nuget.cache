@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nMqSIDJzQNTakuHsCEyFjVUO21W9Fa3T79SNppHi/xMHA1o1ZBnPqvHQkS230NA9IYuvSaDZ7SJO3GkSvbTAdw==",
+  "dgSpecHash": "cW15Jm4Qb786HK9Y5xZ5pgJ7+e818+u44MnFhOAPQdN5LvTE+qmlW/kCJREvZQuK5pQ7oEZdJ74ZgYAQpbKFmQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\arowo\\source\\repos\\Key-Management-System\\Key-Management-System.csproj",
   "expectedPackageFiles": [
@@ -52,6 +52,7 @@
     "C:\\Users\\arowo\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\arowo\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\arowo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\arowo\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
     "C:\\Users\\arowo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\arowo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\arowo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
